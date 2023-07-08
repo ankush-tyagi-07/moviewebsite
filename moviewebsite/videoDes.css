@@ -1,0 +1,41 @@
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content{
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  background: contain;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: rgb(0, 68, 255);
+  color: #fff;
+  cursor: pointer;
+  margin-left: 40vw;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+@media only screen and (max-width:400px){
+  #myBtn {
+    margin-left: 20vw;
+  }
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment_page.css">
+</head>
+
+<body class="background">
+
+    <div id="mg">
+        <span id="Netflix">
+            <a href="moviewebsite.html"><img src="https://fontmeme.com/permalink/230629/c1238762aafc71818b137704cd530879.png" alt="netflix-font" border="0"></a>
+        </span>
+    </div>
+
+    <header id="body-header">
+        <div class="container">
+
+            <div class="left">
+                <h3>
+                    BILLING ADDRESS
+                </h3>
+                <form>
+                    Full Name
+                    <input type="text" name="" placeholder="Enter Name" required>
+                    Email
+                    <input type="text" name="" placeholder="Enter mail" required>
+                    Address
+                    <input type="text" name="" placeholder="Enter Address" required>
+                    City
+                    <input type="text" name="" placeholder="Enter City" required>
+
+                    <div id="zip">
+                        <label>
+                            State
+                            <select>
+                                <option>
+                                    Choose State..
+                                </option>
+                                <option>
+                                    Hyderabad
+                                </option>
+                                <option>
+                                    Delhi
+                                </option>
+                                <option>
+                                    Bangalore
+                                </option>
+                                <option>
+                                    Gurugram
+                                </option>
+                            </select>
+                        </label>
+                        <label>
+                            Zip Code
+                            <input type="number" name="" placeholder="Enter zip code" required>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="right">
+                <h3>
+                    Payment
+                </h3>
+                <form>
+                    Accepted Card
+                    <br>
+                    <img src="data:image/png;base64,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"
+                        width="60">
+                    <br>
+                    Credit Card Number
+                    <input type="text" name="" placeholder="Enter Card Number" required>
+                    <div id="plan">
+                        <label>
+                            Plan
+                            <select>
+                                <option>
+                                    Choose Your Plan..
+                                </option>
+                                <option>
+                                    Mobile Rs.149/month
+                                </option>
+                                <option>
+                                    Basic Rs.249/month
+                                </option>
+                                <option>
+                                    Standard Rs.349/month
+                                </option>
+                                <option>
+                                    Premium Rs.649/month
+                                </option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div id="zip">
+                        <label>
+                            Exp year
+                            <select>
+                                <option>
+                                    Choose Year..
+                                </option>
+                                <option>
+                                    2022
+                                </option>
+                                <option>
+                                    2023
+                                </option>
+                                <option>
+                                    2024
+                                </option>
+                                <option>
+                                    2025
+                                </option>
+                            </select>
+                        </label>
+                        <label>
+                            CVV
+                            <input type="number" name="" placeholder="CVV" required>
+                        </label>
+
+                    </div>
+                </form>
+                <a href="moviewebsite.html"><input type="submit" name="" value="Start Membership"></a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

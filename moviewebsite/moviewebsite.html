@@ -1,0 +1,473 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="moviewebsite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <title>Movie website</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">MOVIEVERSE</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item"><a href="#" class="link-to-video">Home</a></li>
+                    <li class="menu-list-item"><a href="#movies" class="link-to-video">Movies</a></li>
+                    <li class="menu-list-item"><a href="#popular" class="link-to-video">Popular</a></li>
+                    <li class="menu-list-item"><a href="#series" class="link-to-video">Series</a></li>
+                    <li class="menu-list-item"><a href="#tv-shows" class="link-to-video">TV Shows</a></li>
+                    <li class="menu-list-item"><a href="payment_page.html" class="link-to-video"> Choose Your Plan</a></li>
+                    <li class="menu-list-item"><a href="login.html" class="link-to-video"> Create a new profile</a></li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.jpg" />
+                <div class="profile-container-text">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <i class="fa-solid fa-magnifying-glass sidebar-item"></i>
+        <i class="fa-solid fa-house sidebar-item"></i>
+        <i class="fa-solid fa-bookmark sidebar-item"></i>
+        <i class="fa-solid fa-tv sidebar-item"></i>
+        <i class="fa-solid fa-hourglass sidebar-item"></i>
+        <a href="login.html" class="link-to-video"><i class="fa-solid fa-users sidebar-item"></i></a>
+        <a href="login.html" class="link-to-video"><i class="fa-solid fa-cart-shopping sidebar-item"></i></a>
+    </div>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content">
+                <video autoplay muted plays-inline class="background-video" >
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4">
+                </video>
+                <p class="featured-desc"><b>Movie Name</b>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia enim excepturi
+                    magnam. Totam esse eaque molestias magni atque ea illum eveniet, sequi nobis quae et. Distinctio
+                    minus quasi laborum beatae!
+                </p>
+                <a href="video.html" target="_blank" class="link-to-video">
+                    <button class="featured-button">WATCH</button>
+                </a>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="movies">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://universnews.tn/wp-content/uploads/2022/05/Le-teaser-est-la-et-il-depasse-les-attentes-Premier.jpg" alt="">
+                            <span class="movie-list-item-title">Multiverse of Madness</span>
+                            <p class="movie-list-item-desc">
+                                 A sorcerer must confront his inner demons and navigate parallel dimensions to save existence from chaos.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Harum, animi quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc"> 
+                                A gripping tale of survival and resilience as a small coastal town battles a devastating and relentless storm that threatens to wipe out everything in its path.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">
+                                 Set during World War I, two young British soldiers embark on a dangerous mission to deliver a critical message that could save the lives of thousands of soldiers .
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-circle-arrow-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="popular">POPULAR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/16.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-circle-arrow-right arrow"></i>
+                </div>
+            </div>
+
+
+            <div class="featured-content">
+                <video autoplay muted plays-inline class="background-video">
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4">
+                </video>
+
+                <p class="featured-desc"><b>Movie Name</b>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia enim excepturi
+                    magnam. Totam esse eaque molestias magni atque ea illum eveniet, sequi nobis quae et. Distinctio
+                    minus quasi laborum beatae!
+                </p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="series">WEB SERIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://bingeddata.s3.amazonaws.com/uploads/2020/04/Mirzapur-Forms-Connection-Between-Netflix-And-Amazon-Prime-Video-.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://www.htmedia.in/wp-content/uploads/2021/06/thefamilyman-launch-date-poster-apv1_5m4b.1200.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://v3img.voot.com/v3Storage/assets/asur-2_launch--16x9-1686131334432.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJg5mkHHL17GN2u5IhBj34gHwoskH-sS32Mml0q4hzVJlfzGnDq54r6M1WQu5ChYs48FA&usqp=CAU" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://ntvb.tmsimg.com/assets/p8696131_b_h10_aa.jpg?w=1280&h=720" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://images.liverpoolmuseums.org.uk/styles/dynamic/public/2021-12/Peaky%20Blinders.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/ogsjo9lp1bd9xvu1_1584673615.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-circle-arrow-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="tv-shows">TV SHOWS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxgD8nz1A4HSJvYuu2tltTMN5daB1f4yA1_Yod-6cwtjZUrAl4SbRFSFbtahUI2fZYU8&usqp=CAU" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://yt3.ggpht.com/pPPruumUXn9NkthEb5sZ8Vu_8YBJjNdXTiFNwwYcDZktOZsyFmY93jNqChifWjxRTQeYpwPveTc=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://flxt.tmsimg.com/assets/p185124_b_h10_aj.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3eMr4av3L4KwiYT-mWzKTYBBCGiHop37tQ&usqp=CAU" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/1200px-The_Simpsons_yellow_logo.svg.png" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit Harum, animi
+                                quibusdam incidunt recusandae dicta nemo ad explicabo voluptatibus enim
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-circle-arrow-right arrow"></i>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="faq-section">
+            <div class="faq-heading"><h1>FAQ'S</h1></div>
+            <section class="faq-container">
+                <div class="faq-one">
+                    <h1 class="faq-page">Is subscription fee refundable?</h1>
+                    <div class="faq-body">
+                        <p>No, but we do have a free trial avalaible for a week.</p>
+                    </div>
+                </div>
+    
+                <div class="faq-two">
+                    <h1 class="faq-page">How many people can share one ID?</h1>
+                    <div class="faq-body">
+                        <p>We have different plans accomodated for sharing IDs,
+                             you can check them on our subsription menu</p>
+                    </div>
+                </div>
+
+                <div class="faq-three">
+                    <h1 class="faq-page">Is tv subscription and mobile subscription different?</h1>
+                    <div class="faq-body">
+                        <p>Yes, there are different prices for mobile and TV subsriptions</p>
+                    </div>
+                </div>
+
+                <div class="faq-four">
+                    <h1 class="faq-page">Do I get access to all movies and web series in every plan?</h1>
+                    <div class="faq-body">
+                        <p>No, there are some exclusive content that is only avalaible to rent </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    
+    <script src="faqjs.js"></script>
+    <script src="moviewebsite.js"></script>
+</body>
+
+</html>
